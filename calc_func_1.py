@@ -1,16 +1,13 @@
 def calculadoraMat(fun, num1, num2):
     if (fun == 1):
         res = num1+num2
-        return res
     elif(fun == 2):
         res = num1-num2
-        return res
     elif(fun == 3):
         res = num1*num2
-        return res
     elif(fun == 4):
         res = num1/num2
-        return res
+    return res
 exec = True
 while (exec == True):
     print ("Opções: 1 - Soma -- 2 - Subtração -- 3 - Multiplicação -- 4 - Divisão -- 0 - Sair")
